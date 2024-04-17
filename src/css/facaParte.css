@@ -1,0 +1,159 @@
+.containerForm {
+  display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 120px
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  
+  .cardFacaParte {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .TituloFacaParte {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+
+  .gridTexto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+ 
+  .paper{
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 30px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-repeat: no-repeat;
+    background-position: 95% center; 
+  }
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container i {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    color: #a9a9a9; 
+  }
+  
+  .input-container input {
+    padding-left: 35px; 
+  }
+  input::placeholder {
+    font-size: 14px; 
+    color: #a9a9a97e;
+  }
+  
+  
+  .links {
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: initial;
+    align-items: end;
+    justify-content: end;
+    gap:20px;
+    padding: 2px 0px 30px;
+   }
+  
+  .links a {
+    text-decoration: none;
+    color: var( --blue-2);
+    margin-right: 10px;
+  }
+  .links a:hover {
+   color: var(--blue-4);
+   text-decoration: underline;
+  }
+  
+  
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao span {
+    margin-left: 5px;
+  }
+  
+  .botao:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .botao {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--botao-bg-color);
+    color: var(--botao-text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #abaaaa15; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: var(--botao-hover-bg-color);
+  }
+
+  @media only screen and (max-width: 500px){
+    .containerForm{
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+    .gridContainer, .paper{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .paper{
+      display:grid;
+      width: 100%;
+      max-width: 600px;
+      
+    }
+  }

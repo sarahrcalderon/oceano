@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <title>Oceano</title>
+</head>
+<body>
+  <div class="banner">
+   <nav class="navbar">
+     <div class="navbar-header">
+      <button class="navbar-toggle" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Artigos</a></li>
+        <li><a href="#">Faça parte</a></li>
+        <li><a href="#">Contato</a></li>
+        <button id="btnEntrar"class="btn-enter" >Entrar</button>
+      </ul> 
+    </div>
+  </nav>
+  </div>
+      <h1 id="titulo">Ajude a salvar os tubarões!</h1>
+      <p class="paragrafoBanner">os tubarões são essenciais para manter a saúde e a biodiversidade dos oceanos.
+        Proteger essas espécies não apenas beneficia os próprios tubarões, mas também contribui para a conservação
+        de todo o ecossistema marinho e para o bem-estar humano a longo prazo.</p>
+      <div class="btnScroll">
+        <button id="btnScroll" onclick="scrollSmoothTo(document.getElementById('titulo'))">
+          <i id="btnScroll" class="bi bi-arrow-down-circle-fill"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+    <section id="sectionOne">
+        <h2 class="SubTitulo">Conheça um pouco sobre os tubarões</h2>
+        <p>
+            Os tubarões pertencem à classe dos peixes cartilaginosos, conhecidos como Chondrichthyes. Eles evoluíram a partir de 
+            ancestrais primitivos há mais de 400 milhões de anos, tornando-os uma das linhagens mais antigas e bem-sucedidas do reino animal.
+            o longo de sua evolução, os tubarões desenvolveram uma variedade de adaptações incríveis que os tornaram predadores eficientes e 
+            dominantes nos oceanos. Suas características distintas incluem esqueletos cartilaginosos, múltiplas fileiras de dentes substituíveis, 
+            pele áspera com dentículos dérmicos e um sistema sensorial altamente desenvolvido.<br><br>Existem mais de 500 espécies de tubarões conhecidas 
+            atualmente, variando em tamanho, forma, comportamento e habitat. Alguns exemplos notáveis incluem o grande tubarão branco, o tubarão-martelo, 
+            o tubarão-baleia, o tubarão-tigre e o tubarão-mako.Os tubarões desempenham um papel crucial nos ecossistemas marinhos como predadores topos de cadeia.
+            Eles ajudam a regular as populações de suas presas, controlando assim o equilíbrio e a biodiversidade nos oceanos.Ao longo da história, os tubarões têm 
+            sido objeto de fascínio, admiração e também temor por parte dos humanos.<br><br> Infelizmente, muitas espécies de tubarões enfrentam ameaças significativas devido à 
+            pesca excessiva, degradação do habitat, mudanças climáticas e captura acidental em redes de pesca. Atualmente houve um aumento nos esforços de conservação para 
+            proteger as populações de tubarões em todo o mundo. Isso inclui a implementação de medidas de manejo sustentável, a criação de áreas marinhas protegidas e a 
+            conscientização sobre a importância dos tubarões para os ecossistemas marinhos e para a humanidade.<br>
+            
+        </p>
+    </section>
+    
+<div class="grid-container">
+      <div class="grid-item">
+        <img class="imgGaleria" src="./src/imagens/1.jpg" alt="Imagem 1">
+        <h3>Tubarão cabeça-chata</h3>
+        <p>você sabia que o cabeça-chata tem a capacidade de <strong>sobreviver</strong> em águas de diferentes salinidades. </p>
+        <button id="btnVejaMais" type="button" onclick="AnimationEffect(document.getElementById(''))">Ver mais</button>
+      </div>
+      <div class="grid-item">
+        <img class="imgGaleria"src="./src/imagens/2.jpg" alt="Imagem 2">
+        <h3>Tubarão Branco</h3>
+        você sabia que ele é um peixe endotérmico parcial, o que significa que ele pode <strong>aumentar</strong>  
+        a temperatura de certas partes do seu corpo, como os músculos e órgãos vitais, mantendo-os mais quentes do 
+        que a água ao seu redor.</p>
+        <button id="btnVejaMais" type="button" onclick="AnimationEffect(document.getElementById(''))">Ver mais</button>
+      </div>
+      <div class="grid-item">
+        <img class="imgGaleria" src="./src/imagens/3.jpg" alt="Imagem 3">
+        <h3>Tubarão galha-preta</h3>
+        <p>Esses tubarões são considerados <strong>bioindicadores</strong> 
+        valiosos porque sua presença e comportamento podem fornecer informações 
+        importantes sobre a saúde ecológica dos oceanos.</p>
+        <button id="btnVejaMais" type="button" onclick="AnimationEffect(document.getElementById('Artigos'))">Ver mais </button>
+      </div>
+</div>
+<section>
+  <div class="containerForm">
+    <div class="gridContainer">
+      <img class="cardFacaParte" src="./src/imagens/4.jpg" alt="mergulhador">
+      <div class="text-container">
+        <h2 class="TituloFacaParte">Faça parte da nossa equipe!</h2>
+        <form>
+          <div class="paper">
+          <div class="gridTexto">
+          <p><strong>Cadastre-se</strong><br>Fique por dentro das noticias e saiba como ajudar!</p>
+          </div>
+          <div class="form-group">
+            <div class="input-container">
+              <i class="bi bi-person"></i>
+            <input  type="text" id="nome"  name="nome" placeholder="Nome" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-container">
+              <i class="bi bi-envelope"></i>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+          </div>
+          </div>
+
+          <div class="form-group">
+            <div class="input-container">
+            <i class="bi bi-eye-slash"></i>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            </div>
+          </div>
+          <div class="links">
+            <a href="">Esqueci minha senha</a>
+            
+            <a href="">Não tenho uma conta</a>
+          </div>
+          <button type="submit" class="botao">Entrar <span>&rarr;</span></button>
+        </div>
+        </form>    
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-logo">OCEANO</div><br>
+      <div class="footer-links">
+        <ul class="footer-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Artigos</a></li>
+          <li><a href="#">Faça parte</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Todos os direitos reservados.</p>
+    </div>
+  </div>
+  
+</footer>
+
+
+
+
+
+<script src="https://kit.fontawesome.com/46b7ceee20.js" crossorigin="anonymous"></script>
+<script src="./src/js/btnScroll.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
