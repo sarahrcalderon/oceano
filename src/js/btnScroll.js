@@ -14,15 +14,16 @@ function toggleContent(button) {
 }
 
 //BTN Menu Sandwish
-document.addEventListener('DOMContentLoaded', function () {
-  const navbarToggle = document.querySelector('.navbar-toggle');
-  const navbarMenu = document.querySelector('.navbar-menu');
+document.addEventListener('DOMContentLoaded', function() {
+  const navbarToggle = document.getElementById('navbarToggle');
+  const navbarMenu = document.getElementById('navbarMenu');
 
-  navbarToggle.addEventListener('click', function () {
+  navbarToggle.addEventListener('click', function() {
     navbarMenu.classList.toggle('active');
     navbarToggle.classList.toggle('active');
   });
 });
+
 
 //BTN scroll TITULO index
 function scrollSmoothTo(element) {
