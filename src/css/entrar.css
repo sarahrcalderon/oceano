@@ -1,9 +1,53 @@
-.formEntrar{
+.BackGroundEntrar {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/src/imagens/bkEntrar.jpg');
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+    z-index: 1;
+}
+.BackGroundEntrar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; /*garante que o filtro fica abaixo do conteúdo escrito e o form*/
+}
+
+.textoEntrar, p, h2{
     display:flex;
-    justify-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 300px;
-    height: 400px;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+    font-weight: 300;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    
+
+}
+.formEntrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paperEntrar {
+    width: 500px;
+    margin: 20px;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 @media only screen and (max-width: 768px) {
