@@ -4,7 +4,12 @@
   padding: 3% 5%;
   background-color: transparent;
 }
-
+.navbar-toggle {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 
 .navbar-brand {
   font-size: 1.8rem;

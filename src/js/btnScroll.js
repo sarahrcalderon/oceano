@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
 //BTN scroll TITULO index
 function scrollSmoothTo(element) {
     window.scroll({
@@ -40,9 +39,10 @@ document.getElementById('btnScroll').addEventListener('click', function() {
 
 // BTN entrar
 document.getElementById('btnEntrar').addEventListener('click', function() {
-  window.location.href = 'home.html';
+  window.location.href = 'entrar.html';
 });
   
+
 // BTN Saiba Mais index
 const btnVejaMais = document.getElementById('btnVejaMais');
 botao.addEventListener('click', function() {
@@ -53,6 +53,9 @@ botao.addEventListener('click', function() {
   document.getElementById('Navlogo').addEventListener('click', function() {
     window.location.href = 'Navlogo';
   });
+
+// PÁGINA HOME 
+
 
 //BTN blog HOME
   document.getElementById('submitBtn').addEventListener('click', function(event) {
@@ -67,5 +70,6 @@ botao.addEventListener('click', function() {
     console.log('Date and Time:', dateTime);
   
 });
+
 
 
