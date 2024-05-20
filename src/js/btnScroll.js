@@ -1,6 +1,6 @@
 //SOMENTE BTNS
 
-//BTN Leia mais- HOME
+//BTN Leia mais- INDEX
 function toggleContent(button) {
   const post = button.parentNode;
   const fullContent = post.querySelector('.full-content');
@@ -13,7 +13,7 @@ function toggleContent(button) {
   }
 }
 
-//BTN Menu Sandwish
+//BTN Menu Sandwish INDEX
 document.addEventListener('DOMContentLoaded', function() {
   const navbarToggle = document.getElementById('navbarToggle');
   const navbarMenu = document.getElementById('navbarMenu');
@@ -37,7 +37,7 @@ document.getElementById('btnScroll').addEventListener('click', function() {
     scrollSmoothTo(targetElement);
 });
 
-// BTN entrar
+// BTN entrar INDEX
 document.getElementById('btnEntrar').addEventListener('click', function() {
   window.location.href = 'entrar.html';
 });

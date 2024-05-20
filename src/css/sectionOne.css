@@ -9,6 +9,7 @@
 .SubTitulo {
     display: flex;
     margin-bottom: 50px;
+    color: rgb(17, 16, 100);
     align-items: center;
     justify-content: center;
     justify-items: center;

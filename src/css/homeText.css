@@ -77,7 +77,7 @@ textarea {
 .btn {
     display: block;
     width: 100%;
- 
+
     padding: 10px;
     background-color: var( --blue-2);
     color: var(--white);
