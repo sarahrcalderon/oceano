@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --white: #f1f1f1;
+    --blue-1: #333A73;
+    --blue-2: #387ADF;
+    --blue-3: #50C4ED;
+    --blue-4: #3171d1;
+    --orange-1: #FBA834;
+    --botao-bg-color: #387ADF;
+    --botao-text-color: #f1f1f1;
+    --botao-hover-bg-color: #3171d1;
+
+  }
+
+
+
+ 
